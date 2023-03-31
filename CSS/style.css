@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    max-width: 1440px;
+}
+
+/* Header Style Starts Here */
+
+.header {
+    width: 100%;
+    background-color:#13345B
+    ;
+    padding: 47px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    gap: 52px;
+}
+
+.nav_links {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #FDD504;
+}
+.nav_links:hover {
+    font-size: 2.5rem;
+    color: purple;
+}
+.active {
+    color: red;
+}
+.fa-cart-shopping {
+    color: #FDD504;
+}
+
+/* Contact Us Section Style Starts Here */
+.contact_us {
+    width: 90%;
+    margin: 0 auto;
+    border: 5px solid red;
+}
+
+.text_form {
+    display: flex;
+    gap: 190px;
+    justify-content: space-between;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 48px;
+    margin: 114px 0 88px 0;
+}
+
+.txt_input {
+    width: 450px;
+    height: 38px;
+    background-color: #B3E9F5;
+}
+
+.input_title {
+font-family: 'Inter';
+font-weight: 700;
+font-size: 1.25rem;
+color: #13345B;
+margin: 32px 0 8px 0;
+}
