@@ -42,10 +42,10 @@ ul {
 .contact_us {
     width: 90%;
     margin: 0 auto;
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 
-.text_form {
+.txt_div {
     display: flex;
     gap: 190px;
     justify-content: space-between;
@@ -71,4 +71,96 @@ font-weight: 700;
 font-size: 1.25rem;
 color: #13345B;
 margin: 32px 0 8px 0;
+}
+
+.p_header {
+font-family: 'Inter';
+font-weight: 700;
+font-size: 32px;
+color: #15C1E7;
+}
+.schedule{
+margin: 120px 0 37px 0;}
+
+.programing_language {
+    margin:68px 0 36px 0 ;
+}
+
+.attach {
+    margin: 68px 0 32px 0;
+}
+
+label {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color:#13345B;
+}
+
+.submit {
+    background-color: #FDD504;
+    }
+
+    .reset {
+        background-color:#15C1E7
+        ;
+    }
+
+.submit, .reset {
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    width: 530px;
+    height: 52px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 132px;
+    margin-bottom: 188px;
+
+}
+
+/* Footer Style Starts Here */
+footer {
+    width: 100%;
+    background-color: #13345B
+    ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 470px;
+    gap: 60px;
+
+}
+
+.icons {
+    font-size: 80px;
+    
+}
+
+
+.fa-square-facebook {
+    color: #15C1E7;
+}
+
+.fa-instagram {
+    color: red;
+}
+
+.fa-twitter {
+    color: #75A1F3
+    ;
+}
+
+.fa-youtube {
+    color: #FDD504;
 }

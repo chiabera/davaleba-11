@@ -28,21 +28,50 @@
 <!-- Contact Us Section Starts Here -->
 <section class="contact_us">
     <h3>Contuct Us</h3>
-    <form class="text_form">
-<div class="first_name_age">
-    <p class="input_title">FIRST NAME</p>
-    <input class="txt_input" type="text" placeholder="First Name" name="first_name" id="first_name">
-    <p class="input_title">AGE</p>
-    <input class="txt_input" type="number" placeholder="Age" name="age" id="age">
-</div>
-<div class="last_name_email">
-    <p class="input_title">LAST NAME</p>
-    <input class="txt_input" type="text" placeholder="Last Name" name="last_name" id="last_name">
-    <p class="input_title">EMAIL</p>
-    <input class="txt_input" type="email" placeholder="email" name="email" id="email">  
-</div>
+    <form>
+        <div class="txt_div">
+            <div class="first_name_age">
+                <p class="input_title">FIRST NAME</p>
+                <input class="txt_input" type="text" placeholder="First Name" name="first_name" id="first_name">
+                <p class="input_title">AGE</p>
+                <input class="txt_input" type="number" placeholder="Age" name="age" id="age">
+            </div>
+            <div class="last_name_email">
+                <p class="input_title">LAST NAME</p>
+                <input class="txt_input" type="text" placeholder="Last Name" name="last_name" id="last_name">
+                <p class="input_title">EMAIL</p>
+                <input class="txt_input" type="email" placeholder="email" name="email" id="email">  
+            </div>
+        </div>
+<p class="schedule p_header">The schedule of work you are interested in</p>
+<input type="radio" id="full-time" name="schedule" value="full-time">
+<label for="full-time">Full-time</label>
+<input type="radio" id="part-time" name="schedule" value="part-time">
+<label for="part-time">Part-time</label>
+<input type="radio" id="remote" name="schedule" value="remote">
+<label for="remote">Remote</label>
+<p class="programing_language p_header">Select the programming languages, you know</p>
+<input type="checkbox" name="Angular" id="Angular">
+<label for="Angular">Angular</label>
+<input type="checkbox" name="Python" id="Python">
+<label for="Python">Python</label>
+<input type="checkbox" name="Javascript" id="Javascript">
+<label for="Javascript">Javascript</label>
+<p class="attach p_header">Attach any supporting documents (resume, CV, cover letter, etc.) </p>
+<input class="choose_file" type="file" id="myfile" name="myfile">
+<div class="buttons">
+<input class="submit" type="submit" value="SEND MESSAGE">
+<input class="reset" type="reset"></div>
     </form>
 </section>
+<!-- Footer Starts Here -->
+<footer>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook icons"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram icons"></i></a>
+    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter icons"></i></a>
+    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube icons"></i></a>
+
+</footer>
     </div>
 </body>
 </html>
